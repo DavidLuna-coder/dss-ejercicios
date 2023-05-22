@@ -8,7 +8,7 @@ class Formulario
     Formulario: +Collection~FormField~ getData()
 
 class FormularioProcesor
-    FormularioProcesor: +FormularioProcesor(Formulario formulario, CommandFactory commandFactory)
+    FormularioProcesor: +FormularioProcesor(Formulario formulario)
     FormularioProcesor: +formulario
     FormularioProcesor: +commandFactory
     FormularioProcesor: +Formulario getForm()
