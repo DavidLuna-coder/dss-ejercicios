@@ -47,7 +47,7 @@ SendToWareHouseCommand --> Formulario
 FormField <|-- WareHouseFormField
 Formulario <|-- FormularioPedido
 ```
-# Apartado 
+# Apartado 2
 ```mermaid
 sequenceDiagram
     App ->> FormularioPedido : new()
